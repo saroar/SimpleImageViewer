@@ -25,7 +25,7 @@ public final class ImageViewerController: UIViewController {
         self.configuration = configuration
         super.init(nibName: String(describing: type(of: self)), bundle: Bundle(for: type(of: self)))
         
-        modalPresentationStyle = .overFullScreen
+        modalPresentationStyle = .fullScreen
         modalTransitionStyle = .crossDissolve
         modalPresentationCapturesStatusBarAppearance = true
     }
